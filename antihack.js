@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const tpoints = {};
 const vpoints = {};
 const jimp = require("jimp");
-const client = new Discord.Client();
+const client = new Discord.Client(588685076527841290);
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
  client.user.setActivity("",{type: 'watching'})
@@ -347,4 +347,4 @@ client.on('message', message => {
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(NTg4NzI0NjM4Njg3ODIxODM1.XQKsGw.aPEdWeIqCBTpksEPlE0EQdaHjkQ);
